@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job Application Form</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form action="" method="">
+        <label for="name">Name: </label>
+        <input type="text" id="name" />
+        <label for="email">E-mail: </label>
+        <input type="email" id="email" />
+        <label for="position">Choose your desired job position</label>
+        <select name="" id="position">
+          <option value="">Choose position...</option>
+          <option value="backend-developer">Backend Developer</option>
+          <option value="front-end-developer">Front End Developer</option>
+          <option value="full-stack-developer">Full Stack Developer</option>
+        </select>
+        <fieldset class="radio-group">
+          <legend>Your availability:</legend>
+          <input type="radio" name="availability" id="full-time" />
+          <label for="full-time">Full Time</label>
+          <input type="radio" name="availability" id="part-time" />
+          <label for="part-time">Part Time</label>
+        </fieldset>
+        <label for="message"
+          >Tell us why you would be perfect candidate:
+        </label>
+        <textarea
+          name="candidate-text"
+          id="message"
+          cols="50"
+          rows="4"
+        ></textarea>
+        <button type="submit">Submit!</button>
+      </form>
+    </div>
+  </body>
+</html>

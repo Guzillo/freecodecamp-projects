@@ -1,0 +1,53 @@
+body {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+    width: 50vw;
+    min-height: calc(100vh - padding-bottom - padding-top);
+}
+
+* { 
+    padding: 0;
+    margin: 0;
+}
+
+.hero-image {
+    max-width: 100%;
+    margin-bottom: 40px;
+}
+
+.hero-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.hero-description {
+    font-size: 1.2rem;
+    margin-bottom: 0.5em;
+}
+
+.hero-details {
+    font-size: 1.1rem;
+    margin-bottom: 0.5em;
+}
+
+.separator-rule {
+    height: 3px;
+    background-color: black;
+}
+
+.guests-title, .highlights-title {
+    margin: 10px;
+}
+
+.guests-list, .highlights-list {
+    margin: 15px;
+}
+
+.footer > .separator-rule {
+    margin-bottom: 15px;
+}
+
+.footer > p {
+    text-align: right;
+}

@@ -1,0 +1,52 @@
+body {
+    background-color: #f4f4f4;
+}
+:root {
+    margin: 0;
+    padding: 0;
+}
+/* I'll try to implement  Analogous color scheme while using different color representation methods*/
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    letter-spacing: 5px;
+}
+
+.color-grid {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    max-width: 80%;
+    margin: 0 auto;
+}
+.color-box {
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+}
+
+.color1 {
+    background-color: #2600F5;
+}
+
+.color2 {
+    background-color: rgb(200, 0, 245);
+}
+
+.color3 {
+    /* I've tried here to implement predefined color which is as closed as possible to #7701F4 */
+    background-color: rebeccapurple;
+}
+
+.color4 {
+    background-color: hsl(230.2, 100%, 48.04%);
+}
+
+.color5 {
+    background-color: #F500B7;
+}
+
+.color6 {
+    background-color: #9A43F7;
+}

@@ -1,0 +1,36 @@
+textarea:focus, 
+input:focus
+{
+    border: 2px solid burlywood;
+}
+
+input:invalid,
+select:invalid,
+textarea:invalid {
+    border: 2px solid red;
+}
+
+input:valid,
+select:valid,
+textarea:valid {
+    border: 2px solid green;
+}
+
+button:hover { 
+    background-color: darksalmon;
+}
+
+fieldset input[type="radio"]:checked {
+    border: 2px dashed yellow;
+    background-color: lavender;
+    box-shadow: 2px 2px 5px yellowgreen;
+}
+
+
+input[type="radio"]:checked + label {
+    color: coral;
+}
+
+input:nth-child(1) {
+    background-color: red;
+}

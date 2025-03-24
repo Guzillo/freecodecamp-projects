@@ -1,0 +1,76 @@
+:root {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2em;
+    font-weight: 1000;
+}
+
+body {
+    background-color: mistyrose;
+}
+#playing-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 30px 0;
+    flex-wrap: wrap;
+
+}
+.card {
+    min-height: 450px;
+    min-width: 300px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 2px 0.5px black;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.left-up {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.right-down {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.center {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.single-column-signs {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.rotate-y {
+    transform: rotateZ(180deg);
+}
+
+.medium-size {
+    font-size: 2em;
+}
+
+.large-size {
+    font-size: 4em;
+}
+
+.color-red {
+    color: crimson;
+}

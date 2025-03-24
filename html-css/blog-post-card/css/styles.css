@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-post-card {
+    background-color: white;
+    text-align: center;
+    width: 350px;
+    height: 450px;
+    border-radius: 0.95rem;
+}
+
+.post-image  {
+    object-fit: contain;
+    max-width: 100%;
+    height: auto;
+    border-bottom: 3px solid black;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+}
+
+.post-content {
+    padding: 10px;
+}
+
+.post-title {
+    color: brown;
+    margin: 2%;
+}
+
+.post-excerpt {
+    color: crimson;
+    margin: 2%;
+}
+
+.read-more {
+    display: inline-block;
+    color: white;
+    font-weight: 900;
+    background-color: black;
+    border-radius: 0.2rem;
+    margin: 4%;
+    padding: 3% 5%;
+}
+
+a:hover {
+    background-color: firebrick;
+    color: cyan;
+}
+
+a:link {
+    text-decoration: wavy;
+}

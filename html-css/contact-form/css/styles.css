@@ -1,0 +1,67 @@
+@import "./node_modules/normalize.css";
+:root {
+    padding: 0;
+    margin: 0;
+}
+.form-container {
+    height: 100vh;
+    display: flex;
+}
+.form-container > form{
+    display: flex;
+    flex-direction: column;
+    background-color: lightpink;
+    border-radius: 8px;
+    padding: 2em;
+    width: fit-content;
+    margin: auto;
+}
+.form-container > form > textarea:only-of-type {
+    margin-bottom: 1.8em;
+}
+label {
+    margin: 0.4rem;
+    color: #D9FFE0;
+    text-shadow: 1px -1px #000;
+}
+
+input, textarea {
+    width: 150px;
+    padding: 0.3em 2em;
+    margin-bottom: 0.8em;
+}
+
+button {
+    width: 50%;
+    margin: 0 auto;
+    background-color: #d9ffe0;
+    font-size: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid gray;
+    box-shadow: 2px -2px 5px #d9ffe0;
+    min-width: 150px;
+    transition: transform 0.5s;
+}
+
+button:hover {
+    background-color: #6ee324;
+    transform: scale(1.1);
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+input:required {
+    outline: 1px solid red;
+    
+}
+
+:is(input, textarea):required {
+    outline: 1px solid red;
+}
+
+input:required:valid {
+    outline: unset;
+}
