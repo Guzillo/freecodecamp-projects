@@ -1,0 +1,35 @@
+# 1. You should have a table element.
+# 2. You should have only one table element.
+# 3. Your table should have at least 5 rows.
+# 4. Your table should have at least 3 columns.
+# 5. The first row in your table should contain at least three th elements.
+# 6. The first row in your table should not contain td elements.
+# 7. You should have at least two rows with the class of sharp.
+# 8. You should have at least two rows with the class of half.
+# 9. th elements in the first column should have the class of time and contain time values.
+# 10. You should have at least four th elements with the class of time that contain time values.
+# 11. All your td elements should have the class of available-#, where # is a number from 0 to 5.
+# 12. You should have at least eight .available-# elements, where # is a number between 0 and 5.
+# 13. You should define a --color0 variable in your root selector.
+# 14. You should define a --color1 variable in your root selector.
+# 15. You should define a --color2 variable in your root selector.
+# 16. You should define a --color3 variable in your root selector.
+# 17. You should define a --color4 variable in your root selector.
+# 18. You should define a --color5 variable in your root selector.
+# 19. You should use --color0 to set the background color of .available-0 elements.
+# 20. You should use --color1 to set the background color of .available-1 elements.
+# 21. You should use --color2 to set the background color of .available-2 elements.
+# 22. You should use --color3 to set the background color of .available-3 elements.
+# 23. You should use --color4 to set the background color of .available-4 elements.
+# 24. You should use --color5 to set the background color of .available-5 elements.
+# 25. You should define a --solid-border variable in your root selector.
+# 26. You should define a --dashed-border variable in your root selector.
+# 27. You should target td elements that are children of .sharp elements.
+# 28. You should use --solid-border to set the bottom-border of td elements that are children of .sharp elements.
+# 29. You should target td elements that are children of .half elements.
+# 30. You should use --dashed-border to set the bottom-border of td elements of .half elements.
+# 31. You should have a div element with the id of legend.
+# 32. You should have a span element with the text Availability inside your #legend.
+# 33. You should have a div element with the id of legend-gradient inside your #legend.
+# 34. You should set the background image of #legend-gradient to a linear gradient.
+# 35. You should use two color-stops (expressed in percentage) to make the transition from one color to the following color a hard line for your #legend-gradient. Remember to use your --color# variables.

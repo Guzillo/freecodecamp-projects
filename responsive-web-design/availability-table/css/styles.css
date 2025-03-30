@@ -1,0 +1,81 @@
+:root {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    --color0: #1AF001;
+    --color1: #28C623;
+    --color2: #379B34;
+    --color3: #3A7038;
+    --color4: #2F462E;
+    --color5: #354035;
+
+    --solid-border: 1px solid black;
+    --dashed-border: 1px dashed black;
+}
+
+.available-0 {
+    background-color: var(--color0);
+}
+
+.available-1 {
+    background-color: var(--color1);
+}
+
+.available-2 {
+    background-color: var(--color2);
+}
+
+.available-3 {
+    background-color: var(--color3);
+}
+
+.available-4 {
+    background-color: var(--color4);
+}
+
+.available-5 {
+    background-color: var(--color5);
+}
+
+.sharp td {
+    border-bottom: var(--solid-border);
+}
+
+.half td {
+    border-bottom: var(--dashed-border);
+}
+.table-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    width: 80%;
+    height: 20vh;
+}
+table td {
+    width: 3%;
+}
+#legend-gradient {
+    
+    height: 2rem;
+    width: 5rem;
+    background-image: linear-gradient(
+        to right,
+        var(--color0),
+        var(--color0) 16.6%,
+        var(--color1) 16.6%,
+        var(--color1) 33.26%,
+        var(--color2) 33.26%,
+        var(--color2) 49.86%,
+        var(--color3) 49.86%,
+        var(--color3) 66.46%,
+        var(--color4) 66.46%,
+        var(--color4) 83.06%,
+        var(--color5) 83.06%,
+        var(--color5) 100%
+    );
+}
