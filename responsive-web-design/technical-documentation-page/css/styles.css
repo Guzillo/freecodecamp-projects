@@ -1,0 +1,74 @@
+:root {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+#navbar header {
+    font-size: 2rem;
+    padding-bottom: 3rem;
+    text-align: center;
+}
+#navbar li{
+    height: 4rem;
+    min-width: 8rem;
+    border: 1px solid black;
+    padding: 0.5rem;
+    list-style: none;
+    background-color: bisque;
+    text-align: center;
+    align-content: center;
+    display: inline-block;
+}
+
+#navbar a {
+    position: relative;
+    text-decoration: none;
+    color: #000;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+#navbar li:not(:last-of-type) {
+    margin-bottom: 2rem;
+}
+
+#navbar {
+    border: 2px solid black
+}
+
+#main-doc header{
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+#main-doc p {
+    margin-bottom: 2rem;
+}
+
+
+@media screen and (min-width: 1224px) {
+    #navbar {
+        width: 20%;
+        float: left;
+        position: fixed;
+        left: 0;
+        top: 0;
+        display: block;
+        height: 100vh;
+        margin: 0 auto;
+    }
+    #navbar li  {
+        display: block;
+    }
+    #main-doc {
+        width: 80%;
+        position: relative;
+        margin-left: 20%;
+        padding-left: 2rem;
+    }
+}
