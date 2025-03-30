@@ -1,0 +1,25 @@
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.magazine-cover {
+  display: grid;
+  grid-template-areas:
+    'title title title'
+    'ft-art ft-art cv-img'
+    'sm-art1 sm-art2 cv-img';
+  grid-template-rows: auto 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  width: 100vw;
+}
+.title{grid-area:title}
+.feature-article{grid-area:ft-art}
+.cover-image{
+    grid-area:cv-img;
+    object-fit: cover;
+}
+.small-article1{grid-area:sm-art1}
+.small-article2{grid-area:sm-art2}
