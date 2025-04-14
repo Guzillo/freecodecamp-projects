@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Favorite Icon Toggler</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      .filled {
+        color: red;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Shopping List</h1>
+    <ul class="item-list">
+      <li>3 Bananas<button class="favorite-icon" id="elo">&#9825;</button></li>
+      <li>Avocado<button class="favorite-icon">&#9825;</button></li>
+      <li>Pineapple<button class="favorite-icon">&#9825;</button></li>
+    </ul>
+
+    <script>
+      const button = document.querySelectorAll(
+        "ul.item-list button.favorite-icon"
+      );
+
+      for (let i = 0; i < 3; i++) {
+        const currentBtn = button[i];
+        currentBtn.addEventListener("click", () => {
+          if (!currentBtn.classList.contains("filled")) {
+            currentBtn.classList.toggle("filled");
+            currentBtn.innerHTML = "&#10084;";
+          } else {
+            currentBtn.classList.toggle("filled");
+            currentBtn.innerHTML = "&#9825;";
+          }
+        });
+      }
+    </script>
+  </body>
+</html>
