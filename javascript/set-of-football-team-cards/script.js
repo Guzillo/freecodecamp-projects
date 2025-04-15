@@ -10,7 +10,7 @@ const footballTeam = {
     {name: "Nathan Scott",position: "goalkeeper",isCaptain : false}
   ],
 };
-
+const {team, year, headCoach, players} = footballTeam;
 const headCoachSpanElement = document.getElementById('head-coach');
 const teamSpanElement = document.getElementById('team');
 const yearSpanElement = document.getElementById('year');
@@ -18,8 +18,8 @@ const playerCardsElement = document.getElementById('player-cards');
 const dropdownElement = document.getElementById('players');
 headCoachSpanElement.innerText = footballTeam.headCoach;
 
-teamSpanElement.innerText = footballTeam.team;
-yearSpanElement.innerText = footballTeam.year;
+teamSpanElement.innerText = team;
+yearSpanElement.innerText = year;
 
 function getPlayers(option, footballTeam) {
   let players = footballTeam.players;
@@ -27,11 +27,11 @@ function getPlayers(option, footballTeam) {
   .filter( (player)=> {
     return option === 'all' ? player : player.position === option;
   })
-  .reduce( (acc, player)=> {
+  .reduce( (acc, { name, position, isCaptain})=> {
     return acc + 
     `<div class="player-card">
-     <h2>${player.isCaptain ? '(Captain) ' : ''}${player.name}</h2>
-     <p>Position: ${player.position}</p>
+     <h2>${isCaptain ? '(Captain) ' : ''}${name}</h2>
+     <p>Position: ${position}</p>
      </div>`
   }, '');
 }
@@ -40,6 +40,6 @@ const updatePlayers = (option, footballTeam) => {
   playerCardsElement.innerHTML = getPlayers(option, footballTeam);
 };
 
-players.addEventListener('change', (e)=> {
+dropdownElement.addEventListener('change', (e)=> {
   updatePlayers(e.target.value, footballTeam);
 });
