@@ -1,0 +1,35 @@
+#content-container {
+  display: none;
+}
+
+body {
+  margin: 0;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  height: 400px;
+  width: 20%;
+  border-radius: 15px;
+  border: 2px solid black;
+  background-color: aqua;
+}
+
+#location-select {
+  width: fit-content;
+  border-radius: 5px;
+}
+
+#get-forecast {
+  width: fit-content;
+  border-radius: 5px;
+}
