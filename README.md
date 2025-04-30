@@ -17,9 +17,47 @@ Through these projects, I gained hands-on experience with the following:
 
 ### How to View the Projects
 
-Each project is stored in its own folder within this repository. To view a project:
-1. Navigate to the corresponding folder.
-2. Open the `index.html` file in your browser.
+Each project is stored in its own folder within this repository. You can view the live demos through GitHub Pages:
+
+#### HTML & CSS Projects
+
+- [Availability Table](https://guzillo.github.io/freecodecamp-projects/html-css/availability-table/)
+- [Blog Post Card](https://guzillo.github.io/freecodecamp-projects/html-css/blog-post-card/)
+- [Book Catalog Table](https://guzillo.github.io/freecodecamp-projects/html-css/book-catalog-table/)
+- [Book Inventory App](https://guzillo.github.io/freecodecamp-projects/html-css/book-inventory-app/)
+- [Business Card](https://guzillo.github.io/freecodecamp-projects/html-css/business-card/)
+- [Checkout Page](https://guzillo.github.io/freecodecamp-projects/html-css/checkout-page-accessibility-friendly/)
+- [Colored Boxes](https://guzillo.github.io/freecodecamp-projects/html-css/colored-boxes/)
+- [Confidential Email Page](https://guzillo.github.io/freecodecamp-projects/html-css/confidential-email-page/)
+- [Contact Form](https://guzillo.github.io/freecodecamp-projects/html-css/contact-form/)
+- [Event Flyer](https://guzillo.github.io/freecodecamp-projects/html-css/event-flyer-page/)
+- [Event Hub](https://guzillo.github.io/freecodecamp-projects/html-css/event-hub/)
+- [House Painting](https://guzillo.github.io/freecodecamp-projects/html-css/house-painting/)
+- [Job Application Form](https://guzillo.github.io/freecodecamp-projects/html-css/job-application-form/)
+- [Magazine Layout](https://guzillo.github.io/freecodecamp-projects/html-css/magazine-layout/)
+- [Newspaper Article](https://guzillo.github.io/freecodecamp-projects/html-css/newspaper-article/)
+- [Playing Cards](https://guzillo.github.io/freecodecamp-projects/html-css/page-of-playing-cards/)
+- [Recipe Page](https://guzillo.github.io/freecodecamp-projects/html-css/recipe-page/)
+- [Technical Documentation](https://guzillo.github.io/freecodecamp-projects/html-css/technical-documentation-page/)
+- [To-Do List](https://guzillo.github.io/freecodecamp-projects/html-css/to-do-list/)
+- [Travel Agency Page](https://guzillo.github.io/freecodecamp-projects/html-css/travel-agency-page/)
+- [Tribute Page](https://guzillo.github.io/freecodecamp-projects/html-css/tribute-page/)
+- [Video Compilation](https://guzillo.github.io/freecodecamp-projects/html-css/video-compilation-page/)
+
+#### JavaScript Projects
+
+- [Bookmark Manager](https://guzillo.github.io/freecodecamp-projects/javascript/bookmark-manager-app/)
+- [Customer Complaint Form](https://guzillo.github.io/freecodecamp-projects/javascript/customer-complaint-form/)
+- [Drum Machine](https://guzillo.github.io/freecodecamp-projects/javascript/drum-machine/)
+- [Favorite Icon Toggler](https://guzillo.github.io/freecodecamp-projects/javascript/favorite-icon-toggler/)
+- [fCC Forum Leaderboard](https://guzillo.github.io/freecodecamp-projects/javascript/fCC-forum-leaderboard/)
+- [Lightbox Viewer](https://guzillo.github.io/freecodecamp-projects/javascript/lightbox-viewer/)
+- [Markdown to HTML Converter](https://guzillo.github.io/freecodecamp-projects/javascript/markdown-to-html-converter/)
+- [Real Time Counter](https://guzillo.github.io/freecodecamp-projects/javascript/real-time-counter/)
+- [Regex Sandbox](https://guzillo.github.io/freecodecamp-projects/javascript/regex-sandbox/)
+- [Set of Football Team Cards](https://guzillo.github.io/freecodecamp-projects/javascript/set-of-football-team-cards/)
+- [Sorting Visualiser](https://guzillo.github.io/freecodecamp-projects/javascript/sorting-visualiser/)
+- [Weather App](https://guzillo.github.io/freecodecamp-projects/javascript/weather-app/)
 
 ### Acknowledgments
 
